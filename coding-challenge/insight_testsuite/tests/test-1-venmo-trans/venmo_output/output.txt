@@ -1,0 +1,6 @@
+Median Degree
+*********************************
+1th useful data arrives:
+{"created_time": "2016-03-28T23:23:12Z", "target": "charlotte-macfarlane", "actor": "Raffi-Antilian"}
+The median degree list is
+['1.00']
