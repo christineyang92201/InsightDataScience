@@ -3,7 +3,15 @@ Packages I used: re, sys, networkx, matplotlib
 Definition : records without target or actor.
 There are 39 records with missing value,Compared with 1792 full records,it is a small number, so I just ignore these records for analysis.
 
-2. Idea
+2.Draw graph
+I commented my graph drawing command lines:
+reGraph(relatn, valueName, count-1)
+reGraphvalue(relatn,valueName,count-1) 
+
+since if cost some time to draw the graphs for tons of data. I have no idea how big the test data size you are using, so just in case, if it is very large, graphing drawing is very time consuming. But if you are interest to check it, you can just uncomment these two lines, then you will get graphs.
+I've put my own test graph results in your-own-test file.'
+
+3. Idea
 Main:
 Transform time to seconds base, day*24*3600 + hour*3600 + minute*3600 + seconds. Note: All records collected from the same year, same month, so we don't need to care them
 After transformation, we can compare time for any two records.
